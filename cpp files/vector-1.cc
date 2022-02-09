@@ -9,25 +9,33 @@ int main () {
     std::vector<int> gleich_initialisierte_reihe(10,99);
     std::vector<double> vector_double {};
 
-    for (int i {1}; i<100;i++) {
-        vector_int.push_back(i);
+    // assign einser_reihe with values from 1-10
+    for (int i {1}; i<=10;i++) {
+        einser_reihe.push_back(i);      // push_back assigns a value at the end of the vector
     }
 
-    // alle daten ausgeben please
-    for (auto vector_int: size(vector_int)) {
-
+    std::cout << "Print values of vector einser_reihe: " << std::endl;
+    for (int i {};i<einser_reihe.size();i++) {
+        std::cout << einser_reihe.at(i) << "\t";
     }
     std::cout << std::endl;
 
-    for (auto diverse_zahlen: size(divers_initialisierte_zahlen)) {
+    std::cout << "Print Values of vector divers_initialisiserte_reihe: " << std::endl;
+    for (int i {}; i< divers_initialisierte_reihe.size();i++) {
+        std::cout << divers_initialisierte_reihe.at(i) << "\t";
+    }
+    std::cout << std::endl;
+    
+    std::cout << "Print Values of vector null_initialisiserte_reihe: " << std::endl;
+    for (auto i: null_initialisierte_reihe) {   //different coding style does the same like examples before it. But is more safe, since out of range acces is avoided.
         std::cout << i << "\t";
     }
     std::cout << std::endl;
-    for (auto gleich_initialisierte_zahlen){
 
+    std::cout << "Print Values of vector gleich_initialisiserte_reihe: " << std::endl;
+    for (auto i: gleich_initialisierte_reihe) { // print all members of the vector using the range coding style.
+        std::cout << i << "\t";
     }
-    // werte hinten anfügen
-    // werte löschen
-    // werte werte in der mitte einfügen
+    std::cout << std::endl;
 
 }
