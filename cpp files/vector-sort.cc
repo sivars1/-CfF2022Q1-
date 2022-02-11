@@ -3,7 +3,7 @@
 #include<vector>
 
 int main () {
-    std::vector<int> numbers {9999, 2012,-3, -191, 32, 121, 1024 , -528, -256, 1};
+    std::vector<int> numbers {9999, 2012,-3, -191, 32, 121, 1024 , -528, -256,2024, -7, 1};
 
     //print the vector elements
     for (auto i: numbers) {
