@@ -43,7 +43,7 @@ int main() {
 
     // now Reset the pointers and try to show their values
     int1_up.reset(); // should point to nullptr now
-    int2_up.reset();
+    int2_up.reset(); // same for int2_up
     std::cout << "int1_up1 points to the value: " << *int1_up; // should cause error and exit the programm 
     std::cout << "int2_up points to the value: " << *int2_up; // will not be executed anymore.
 }
