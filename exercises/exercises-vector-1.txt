@@ -1,0 +1,9 @@
+----------------------
+Vector Exercise -1
+----------------------
+1. declare and initialise a vector object with 10 members with the values from 1 to 10 in asscending order!
+2. declare and initialise a vector object with 200 members. all with the value 100.
+3. declare an empty vector object. Use Push_back() function to add 200 new members with the numbers 200 to 1 in descending order. 
+4. declare and initialise a vector object with 200 members with the value 0. 
+5. store in each of  the 4th vector members the sum of the corresponding second and third vector members!
+

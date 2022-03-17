@@ -1,0 +1,15 @@
+
+----------------------
+Vector Exercise-2
+----------------------
+
+Allways print your solutions to the terminal!
+allways access elements of a vector with the .at() function!
+1. copy your program from exercise-1 and modify it the following way.
+2. add enough new members to the first vector so that it contains the values from 1 to 100 in ascending order!
+3. use .back() and front() functions to print out the first and last element of each vector!
+4. use the .pop_back() function on every vector!. this should delete the last element of the vector!
+5. try to print the the 100th element of the 1st vector using .at(99). Describe what is printed in the terminal and try to explain it!
+5.b (bonus only for david): if the whole thing would have been implemented in normal array contruct what would have have happened if you had tried to access an array with a higher index than it was declared for?
+eg. 	int [100] numbers;
+	std::cout << numbers[102];
