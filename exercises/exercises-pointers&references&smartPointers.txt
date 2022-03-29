@@ -2,29 +2,35 @@ The following exercises enable you to try what you’ve learned in this chapter.
 over the chapter for help. If you’re still stuck after that, you can download the solutions from the Apress 
 website (www.apress.com/source-code), but that really should be a last resort.
 
-Exercise 6-1. Write a program that declares and initializes an array with the first 50 odd 
+Exercise 6-1. 
+Write a program that declares and initializes an array with the first 50 odd 
 (as in not even) numbers. Output the numbers from the array ten to a line using pointer 
 notation and then output them in reverse order, also using pointer notation.
 
-Exercise 6-2. Revisit the previous exercise, but instead of accessing the array values 
+Exercise 6-2. 
+Revisit the previous exercise, but instead of accessing the array values 
 using the loop counter, this time you should employ pointer increments (using the 
 ++ operator) to traverse the array when outputting it for the first time. After that, use 
 pointer decrements (using --) to traverse the array again in the reverse direction.
 
-Exercise 6-3. Write a program that reads an array size from the keyboard and 
+Exercise 6-3. 
+Write a program that reads an array size from the keyboard and 
 dynamically allocates an array of that size to hold floating-point values. Using pointer 
 notation, initialize all the elements of the array so that the value of the element at 
 index position n is 1 / (n + 1)^2
 . Calculate the sum of the elements using array notation, 
 multiply the sum by 6, and output the square root of that result.
 
-Exercise 6-4. Repeat the calculation in Exercise 6-3 but using a vector<> container 
+Exercise 6-4. 
+Repeat the calculation in Exercise 6-3 but using a vector<> container 
 allocated in the free store. Test the program with more than 100,000 elements. Do you 
 notice anything interesting about the result?
 
-Exercise 6-5. Revisit Exercise 6-3, but this time use a smart pointer to store the array, 
+Exercise 6-5. 
+Revisit Exercise 6-3, but this time use a smart pointer to store the array, 
 that is, if you haven’t already done so from the start. A good student should’ve known 
-not to use the low-level memory allocation primitives….
+not to use the low-level memory allocation primitives…
 
-Exercise 6-6. Revisit Exercise 6-4 and replace any raw pointers with smart pointers 
-there as well
+Exercise 6-6. 
+Revisit Exercise 6-4 and replace any raw pointers with smart pointers 
+there as well.
