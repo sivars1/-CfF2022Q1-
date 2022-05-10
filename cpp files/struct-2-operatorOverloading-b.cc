@@ -29,14 +29,11 @@ struct CollectionOfPupils {
     void operator+=(Pupil& operand_pupil){
         this->vector_pupils.push_back(operand_pupil);
     }
-};
 
-/** overloading the += Operator as a public function
- * 
- * CollectionOfPupils& operator+=(CollectionOfPupils& operand_CollectionOfPupils, Pupil& operand_pupil) {
-    operand_CollectionOfPupils.vector_pupils.push_back(operand_pupil);
-    return operand_CollectionOfPupils;
-}*/
+    /**void operator-=(Pupil& operand_pupil){
+        this->vector_pupils.erase(operand_pupil);
+    }*/
+};
 
    std::ostream& operator<<(std::ostream& operand_ostream, CollectionOfPupils& operand_collectionOfPupils) {
         for(auto temp_pupil : operand_collectionOfPupils.vector_pupils) {
