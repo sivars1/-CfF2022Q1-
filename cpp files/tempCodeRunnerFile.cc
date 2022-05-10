@@ -1,1 +1,1 @@
-lt
+Pupil p3=Pupil("Tanya","Degerov",11);
