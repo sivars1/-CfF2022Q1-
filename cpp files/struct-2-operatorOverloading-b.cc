@@ -24,12 +24,16 @@ std::ostream& operator<<(std::ostream& operand_ostream, Pupil& operand_pupil) {
 
 struct CollectionOfPupils {
     std::vector<Pupil> vector_pupils;
+
+    // overlaoding the += Operator as a member function! (allows the use of this-> and saves parameters)
     void operator+=(Pupil& operand_pupil){
         this->vector_pupils.push_back(operand_pupil);
     }
 };
 
-/**CollectionOfPupils& operator+=(CollectionOfPupils& operand_CollectionOfPupils, Pupil& operand_pupil) {
+/** overloading the += Operator as a public function
+ * 
+ * CollectionOfPupils& operator+=(CollectionOfPupils& operand_CollectionOfPupils, Pupil& operand_pupil) {
     operand_CollectionOfPupils.vector_pupils.push_back(operand_pupil);
     return operand_CollectionOfPupils;
 }*/
