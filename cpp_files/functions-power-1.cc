@@ -31,6 +31,7 @@
         return (temp_result);
     }
 
+
 int main () {
     double x {1};
     int n {0};
